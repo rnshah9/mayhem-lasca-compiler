@@ -1,0 +1,6 @@
+project: rnshah9/mayhem-lasca-compiler
+target: lasca
+
+cmds:
+  - cmd: /lasca-compiler/.stack-work/dist/x86_64-linux-tinfo6/Cabal-2.2.0.1/build/lasca/lasca --exec @@
+    filepath: /test.lasca
